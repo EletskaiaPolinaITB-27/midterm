@@ -5,7 +5,6 @@ import type { IUser } from "../types/types"
 interface Props {
     user: IUser
 }
-
 export const UserCard = ({user}:Props) => {
     return (
         <div>
@@ -14,6 +13,7 @@ export const UserCard = ({user}:Props) => {
                     <CardContent>
                         <Box sx={{ display: "flex", gap: 2, alignItems: "center" }}>
                             <Avatar src={user.image} sx={{ width: 60, height: 60 }} />
+
 
                             <Box>
                                 <Typography>
