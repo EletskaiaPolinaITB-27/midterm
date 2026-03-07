@@ -62,8 +62,7 @@ export const UsersPage = () => {
         const result = users.filter((user) => {
 
             const byCountry = countryValue
-                ? user.address?.country === countryValue
-                : true
+                ? user.address?.country === countryValue : true
 
             const byAge = user.age >= ageValue[0] && user.age <= ageValue[1]
 
@@ -80,16 +79,14 @@ export const UsersPage = () => {
 
             <SearchInput
                 searchValue={searchValue}
-                setSearchValue={setSearchValue}
-            />
+                setSearchValue={setSearchValue} />
 
             <Filters
                 countries={countries}
                 countryValue={countryValue}
                 setCountryValue={setCountryValue}
                 ageValue={ageValue}
-                setAgeValue={setAgeValue}
-            />
+                setAgeValue={setAgeValue} />
 
             <Box
                 sx={{
@@ -97,8 +94,7 @@ export const UsersPage = () => {
                     flexWrap: "wrap",
                     gap: 2,
                     mt: 3
-                }}
-            >
+                }} >
 
                 {filteredUsers.map((user) => (
 
