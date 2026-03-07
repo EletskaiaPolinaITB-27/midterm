@@ -1,6 +1,6 @@
 import { Avatar, Card, CardContent, Typography, Box } from "@mui/material"
 import { Link } from "react-router"
-import type { IUser } from "../types/types"
+import type { IUser } from "../../types/types"
 
 interface Props {
     user: IUser

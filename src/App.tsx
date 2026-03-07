@@ -1,6 +1,6 @@
 import { Routes } from "react-router"
 import { Route } from "react-router"
-import { UsersPage } from "./pages/usersPage/usersPage"
+import { UsersPage } from "./pages/usersPage/UsersPage"
 
 
 

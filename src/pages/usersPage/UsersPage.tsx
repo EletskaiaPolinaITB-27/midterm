@@ -3,8 +3,8 @@ import { Box } from "@mui/material"
 import { BASE_URL } from "../../contacts"
 import type { IUser } from "../../types/types"
 import { SearchInput } from "../../components/SearchInput/SearchInput"
-import { Filters } from "../../Filters/Filters"
-import { UserCard } from "../../UserCard/UserCard"
+import { Filters } from "../../components/Filters/Filters"
+import { UserCard } from "../../components/UserCard/UserCard"
 
 export const UsersPage = () => {
 
